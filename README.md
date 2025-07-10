@@ -2,6 +2,11 @@
 
 Data-Driven Music Market Intelligence and Revenue Optimization Analytics
 
+
+![image](https://github.com/user-attachments/assets/d735ac90-b336-46c1-9226-ab0472f7a82f)
+
+
+
 This project, a SQL-based music store analysis, aimed to extract actionable insights from transactional and customer data to optimize business strategies and enhance customer engagement.
 
 📈Project Purpose & Goals:
