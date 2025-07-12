@@ -9,6 +9,28 @@ Data-Driven Music Market Intelligence and Revenue Optimization Analytics
 
 This project, a SQL-based music store analysis, aimed to extract actionable insights from transactional and customer data to optimize business strategies and enhance customer engagement.
 
+I used advanced SQL (CTEs + ROW_NUMBER () to identify the most popular music genre in each country. This helped uncover insights for region-based marketing and playlist strategy.
+
+In this project, I explored over 50+ countries from a music streaming dataset to determine the top-selling music genre in each country. Using advanced SQL techniques like Common Table Expressions (CTEs) and ROW_NUMBER () window functions, I ranked genre popularity based on purchase volume.
+
+Business Insight:
+
+         The query helps business stakeholders tailor marketing campaigns and music recommendations for each country based on the most preferred genre, enhancing engagement and monetization opportunities.
+         
+SQL Highlights:
+
+   🎵Designed complex SQL queries using ROW_NUMBER (), RANK (), and DENSE_RANK () to calculate regional revenue rankings
+   
+   🎵Applied CTEs and nested subqueries for modular, readable analytics pipelines
+   
+   🎵Used CASE statements to segment regions by revenue performance (High/Medium/Low)
+   
+   🎵Applied ROW_NUMBER () OVER (PARTITION BY country ORDER BY purchases DESC) to dynamically identify top genres per country
+   
+Business Impact:
+
+        Enabled data-driven decisions on where to focus marketing spend and content licensing based on revenue trends and growth patterns.
+
 📈Project Purpose & Goals:
 
 The core purpose was to leverage SQL for in-depth data analysis to answer key business questions related to sales performance, customer behavior, and music preferences. Specific goals included:
