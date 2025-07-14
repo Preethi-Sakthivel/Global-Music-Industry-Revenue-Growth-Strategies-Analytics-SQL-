@@ -1,4 +1,4 @@
-# Global Music Analytics-SQL-PROJECT
+# Global Music Industry Revenue Growth Strategies Analytics | SQL | 
 
 Data-Driven Music Market Intelligence and Revenue Optimization Analytics
 
